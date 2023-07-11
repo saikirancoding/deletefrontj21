@@ -1,0 +1,23 @@
+<!-- <div>
+    <h2>Learning ngIf example</h2>
+
+    <input type="checkbox" (change)="changeStatus()">
+    <div *ngIf="active">
+        <h3 style="background-color: aqua;">User is Active</h3>
+
+        </div>
+
+</div> -->
+
+
+<div>
+    <h2>Learning ngIf and else example</h2>
+
+      <div *ngIf="count>3;else elseblock">
+        <h3>Count values is greterthan 3 i.e{{count}}</h3>
+
+      </div>
+      <ng-template #elseblock>
+        <h3>Count values is not  greter than 3 i.e{{count}}</h3>
+      </ng-template>
+</div>

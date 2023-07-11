@@ -1,0 +1,11 @@
+.first{
+    background-color: aqua;
+    width: 50%;
+    margin:auto;
+    height: 100px;
+    padding:10px;
+}
+
+.second{
+   font-style: italic;
+}

@@ -1,0 +1,36 @@
+<h3>ngFor directive example</h3>
+<!-- 
+<div *ngFor="let s of stu">
+
+    <h4>{{s.name}}</h4>
+    <h4>{{s.phone}}</h4>
+    <h4>{{s.branch}}</h4>
+    <hr>
+</div> -->
+<!-- 
+<ul *ngFor="let c of city">
+    <li>{{c}}</li>
+</ul>
+
+<ol >
+    <li *ngFor="let c of city">{{c}}</li>
+</ol> -->
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Name</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of stu">
+            <td>{{s.name}}</td>
+            <td>{{s.phone}}</td>
+            <td>{{s.branch}}</td>
+        </tr>
+    </tbody>
+</table>
